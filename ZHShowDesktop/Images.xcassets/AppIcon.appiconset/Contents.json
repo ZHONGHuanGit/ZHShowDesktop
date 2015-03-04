@@ -51,12 +51,13 @@
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "appIon@2x-4.png",
+      "filename" : "appIon-4.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "appIon@2x-4.png",
       "scale" : "2x"
     }
   ],

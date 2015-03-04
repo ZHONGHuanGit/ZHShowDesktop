@@ -11,6 +11,8 @@
 		213B1B231AA5709400C77F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213B1B221AA5709400C77F16 /* Images.xcassets */; };
 		213B1B261AA5709400C77F16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213B1B241AA5709400C77F16 /* MainMenu.xib */; };
 		213B1B321AA5709400C77F16 /* ZHShowDesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B1B311AA5709400C77F16 /* ZHShowDesktopTests.swift */; };
+		214A023A1AA59641005DBF92 /* SimulateKeyBoardEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A02391AA59641005DBF92 /* SimulateKeyBoardEvent.swift */; };
+		21BF2AB81AA5A54F0074D442 /* DesktopStartup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF2AB71AA5A54F0074D442 /* DesktopStartup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		213B1B2B1AA5709400C77F16 /* ZHShowDesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHShowDesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213B1B301AA5709400C77F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		213B1B311AA5709400C77F16 /* ZHShowDesktopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHShowDesktopTests.swift; sourceTree = "<group>"; };
+		214A02391AA59641005DBF92 /* SimulateKeyBoardEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulateKeyBoardEvent.swift; sourceTree = "<group>"; };
+		21BF2AB71AA5A54F0074D442 /* DesktopStartup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesktopStartup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				213B1B221AA5709400C77F16 /* Images.xcassets */,
 				213B1B241AA5709400C77F16 /* MainMenu.xib */,
 				213B1B1E1AA5709400C77F16 /* Supporting Files */,
+				214A02391AA59641005DBF92 /* SimulateKeyBoardEvent.swift */,
+				21BF2AB71AA5A54F0074D442 /* DesktopStartup.swift */,
 			);
 			path = ZHShowDesktop;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				213B1B211AA5709400C77F16 /* AppDelegate.swift in Sources */,
+				21BF2AB81AA5A54F0074D442 /* DesktopStartup.swift in Sources */,
+				214A023A1AA59641005DBF92 /* SimulateKeyBoardEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +331,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ZHShowDesktop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -334,6 +343,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ZHShowDesktop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -393,6 +403,7 @@
 				213B1B371AA5709400C77F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		213B1B381AA5709400C77F16 /* Build configuration list for PBXNativeTarget "ZHShowDesktopTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +412,7 @@
 				213B1B3A1AA5709400C77F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
